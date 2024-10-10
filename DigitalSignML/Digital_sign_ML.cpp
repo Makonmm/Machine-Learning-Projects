@@ -43,10 +43,8 @@ vector<vector<double> > calc_raw_prob(double type_doc, double valid_cert, double
 vector<vector<double> > confusionMatrix(vector<double> matA, vector<double> matB);
 double accuracy(vector<double> matA, vector<double> matB);
 
-// Number of predictions to be shown
 const int numOfIterations = 5;	
 
-// Main function
 int main() {
 
     // Define the file name as a string
@@ -93,7 +91,6 @@ int main() {
     while(inputFile.good()) {
 				
         // Read the id column
-        // Reference: https://www.cplusplus.com/reference/string/string/getline/
 		getline(inputFile, cell, ','); 			
 
         // Remove quotes		
@@ -103,11 +100,9 @@ int main() {
 		if(!cell.empty()) {								
 
             // Convert the id from string to double	
-            // Reference: https://www.cplusplus.com/reference/string/stod/
 			idVal = stod(cell);	
 
-            // Append the value of x to the vector	
-            // Reference: http://www.cplusplus.com/reference/vector/vector/push_back/		
+            // Append the value of x to the vector		
 			id.push_back(idVal);					
 							
             // Read the type_doc column
@@ -610,7 +605,7 @@ vector<vector<double> > confusionMatrix(vector<double> matA, vector<double> matB
 	return table;
 }
 
-// Retorn accuracy
+// Return accuracy
 double accuracy(vector<double> matA, vector<double> matB) {
 	int matARow = matA.size();
 	int matBRow = matB.size();	
@@ -630,5 +625,5 @@ double accuracy(vector<double> matA, vector<double> matB) {
 	return sum / matA.size();
 }
 
-#pragma GCC diagnostic pop
+
 
