@@ -7,7 +7,7 @@
   1. Install the dependencies
   2. Run the script: 
      ```bash
-     python voting_model.py
+     python News_classifier_ML.py
      ```
 - **Usage Example**: The model is trained and evaluated automatically upon running the script.
 
@@ -19,7 +19,7 @@
   2. Set up your Reddit credentials in the script.
   3. Run the script: 
      ```bash
-     python reddit_classifier.py
+     python Reddit_searcher_ML.py
      ```
 - **Usage Example**: The posts are analyzed and classified with performance reports displayed.
 
@@ -31,7 +31,7 @@
   2. Place the `dataset.csv` file in the correct directory.
   3. Run the script: 
      ```bash
-     python finance_predictor.py
+     python Finance_predict.py
      ```
 - **Usage Example**: Users can input an investment amount to receive a return prediction.
 
@@ -42,7 +42,7 @@
   1. Install the dependencies
   2. Run the script: 
      ```bash
-     python neural_network_simulation.py
+     python Financial_asset_DL.py
      ```
 
 ## 5. Cost of Living
