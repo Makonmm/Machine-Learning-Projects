@@ -1,6 +1,6 @@
 # Projects
 
-#### 1. **News Classification Model (Voting)**
+## 1. **News Classification Model (Voting)**
 - **Description**: Implements a voting model that combines multiple classifiers (Logistic Regression, Random Forest, and Naive Bayes) to predict news categories.
 - **Technologies**: Python, scikit-learn, NLTK.
 - **How to Run**:
@@ -11,7 +11,7 @@
      ```
 - **Usage Example**: The model is trained and evaluated automatically upon running the script.
 
-### 2. **Reddit Post Classifier**
+## 2. **Reddit Post Classifier**
 - **Description**: Collects posts from different subreddits and uses machine learning techniques to classify them.
 - **Technologies**: Python, PRAW, scikit-learn.
 - **How to Run**:
@@ -23,7 +23,7 @@
      ```
 - **Usage Example**: The posts are analyzed and classified with performance reports displayed.
 
-### 3. **Financial Prediction Regression Model**
+## 3. **Financial Prediction Regression Model**
 - **Description**: A linear regression model that predicts financial returns based on investments.
 - **Technologies**: Python, pandas, scikit-learn, matplotlib.
 - **How to Run**:
@@ -35,7 +35,7 @@
      ```
 - **Usage Example**: Users can input an investment amount to receive a return prediction.
 
-### 4. **Neural Network for XOR Prediction and Financial Simulations**
+## 4. **Neural Network for XOR Prediction and Financial Simulations**
 - **Description**: A project that implements a simple neural network to solve the XOR problem and simulates asset prices.
 - **Technologies**: Python, NumPy, pandas, Matplotlib, Seaborn.
 - **How to Run**:
