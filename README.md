@@ -44,3 +44,23 @@
      ```bash
      python neural_network_simulation.py
      ```
+
+## 5. Cost of Living
+
+**Description:**  
+The *Cost of Living* project is a machine learning model developed from scratch in C++ to predict living costs based on past and current salary data. This implementation demonstrates how salary changes over time can be leveraged to estimate living costs, providing valuable insights for individuals and organizations.
+
+**Features:**
+- Linear regression model for cost prediction.
+- Ability to analyze trends in salary and living costs.
+- Simple and efficient implementation in C++.
+
+## 6. Digital Sign
+
+**Description:**  
+The *Digital Sign* project is a classification model developed from scratch in C++ to classify digital signatures. The model is designed to help in the identification and validation of digital certificates, ensuring proper usage and compliance with standards.
+
+**Features:**
+- Classification algorithms 
+- Insights into the relationship between document types and their classifications.
+- Comprehensive implementation in C++ with a focus on efficiency and accuracy.
